@@ -107,7 +107,7 @@ model_name = "IQuest/IQuest-Coder-V1-40B-Thinking"
 
 ### Deployment with vLLM
 
-For production deployment, you can use vLLM to create an OpenAI-compatible API endpoint. Please refer to the vLLM PR for implementation details.
+For production deployment, you can use vLLM to create an OpenAI-compatible API endpoint. Please refer to the [vLLM PR](https://github.com/vllm-project/vllm/pull/31575/files) for implementation details.
 
 ```bash
 vllm serve IQuest/IQuest-Coder-V1-40B-Instruct --tensor-parallel-size 8
